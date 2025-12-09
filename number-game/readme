@@ -1,0 +1,63 @@
+Number Guessing Game (Java Swing)
+
+A simple Java Swing application wherein a player has to guess a randomly generated number in limited tries and time. The game includes difficulty levels, a countdown timer, and score tracking.
+
+Features:
+
+Difficulty Levels
+
+Easy → 1–50 (10 tries)
+
+Medium → 1–100 (7 tries)
+
+Hard → 1–500 (5 tries)
+
+Countdown Timer
+
+Each round gives 20 seconds for a guess.
+
+Score System
+
+Score increases eachtime you guess correctly.
+
+GUI Built with Swing
+
+Buttons, text boxes, pop-ups, labels, and more
+
+How to Use :
+Install Java 8 or higher.
+
+Save the file as:
+Game.java
+
+
+Compile:
+javac Game.java
+
+Run:
+java Game
+
+How to Play:
+
+Choose your difficulty level.
+
+Type your guess in the input box.
+
+Click Check.
+
+The game tells you if your guess is
+
+Too high
+Too low
+Correct ✔
+
+Win before you
+Run out of tries
+Run out of time.
+
+Requirements:
+Java JDK 8+
+No external libraries needed.
+
+License :
+Free to use, modify and learn from.
