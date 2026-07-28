@@ -1,45 +1,70 @@
-This selective notarization enables scalability at an enterprise level while maintaining the immutability of significant fraud events.
+# Java Projects
 
-**Backend Architecture (Spring Boot-Based)**
+This repository contains three beginner-friendly Java projects:
 
-**Core API:** Spring Boot
+1. **Currency Converter** (`/currency-convertor`)
+2. **Grade Calculator** (`/grade`)
+3. **Number Guessing Game** (`/number-game`)
 
-**REST Controllers for profile registration and monitoring**
+---
 
-**Service layer for risk assessment and blockchain triggers**
+## 1) Currency Converter
 
-**Integration with Ethereum using web3j**
+A Java Swing desktop app that converts currency using live rates from the Frankfurter API.
 
-**Transaction hash retrieval for audit linking**
+- **Main file:** `CurrencyConverter.java`
+- **Tech:** Java, Swing, Java HTTP Client, Frankfurter API
+- **Note:** Internet connection is required.
 
-**Blockchain Interaction:**
+Run:
 
-**Ethereum (Ganache for demo / Sepolia Testnet optional)**
+```bash
+cd /home/runner/work/java_projects/java_projects/currency-convertor
+javac CurrencyConverter.java
+java CurrencyConverter
+```
 
-**Smart contracts deployed using Hardhat**
+---
 
-**Spring Boot calls contract methods using web3j**
+## 2) Grade Calculator
 
-**Risk Engine:**
+A Java console app that calculates total marks, average percentage, and grade from user-entered subject scores.
 
-**Python Flask microservice**
+- **Main file:** `GradeCalc.java`
+- **Tech:** Core Java, Scanner
 
-**Deterministic rule engine for demo stability**
+Run:
 
-**Optional pre-trained Scikit-learn Random Forest model for anomaly detection**
+```bash
+cd /home/runner/work/java_projects/java_projects/grade
+javac GradeCalc.java
+java GradeCalc
+```
 
-The Spring Boot backend maintains real-time risk scores. It triggers the smart contract only when risk thresholds are breached, then retrieves the transaction hash, and finally updates the investigator dashboard.
+---
 
-3. **Investigator Dashboard**
-A sophisticated dark-mode React dashboard designed specifically for investigation:
-**Real-time risk score display**
-**Green/Yellow/Red status indicators**
-**Activity timeline graph**
-**Live blockchain transaction hash link**
-**Evidence export package (off-chain metadata + immutable Tx hash)**
-The dashboard UI focuses on clarity, timeliness, and auditability.
-4. **3-Minute Live Demo Flow**
+## 3) Number Guessing Game
 
-**Baseline (Normal):** Register a normal user. Dashboard displays Risk: 10 (Green). No blockchain write happens – proving gas optimization.
+A Java Swing game with difficulty levels, limited tries, timer, and score tracking.
 
-Next: "Advanced (Anomaly)"
+- **Main file:** `Game.java`
+- **Tech:** Java, Swing
+
+Run:
+
+```bash
+cd /home/runner/work/java_projects/java_projects/number-game
+javac Game.java
+java Game
+```
+
+---
+
+## Requirements
+
+- Java JDK 8+ (JDK 11+ recommended)
+- Any Java-compatible terminal/IDE
+
+## Repository Goal
+
+This repo is a collection of small Java practice projects focused on GUI basics, console I/O, and core programming logic.
